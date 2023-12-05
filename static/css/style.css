@@ -1,0 +1,151 @@
+
+.btn_item{display:contents;}
+.content-img{    
+    display: contents;}
+	
+.content-img p{    
+    text-align: center;
+    margin: auto;}
+.d-grid{    display: grid;
+    gap: 10px;}
+.tab-content-inn{display:flex;     
+	justify-content: space-between;
+    padding: 10px;}
+	.new_mn p{margin-bottom:0px;}
+	.new_mn{    background: #4881d7;
+	    justify-content: space-around;
+    color: #fff;
+    padding: 10px;display: flex;
+    gap: 5px;
+    align-items: center;}
+	.edit_btn input{  text-transform: capitalize;background: transparent;cursor:pointer;}
+	.edit_btn input:hover{  color:#fff;}
+	.fa-btn-edit{cursor:pointer;}
+	.btn-warning {
+    color: #4881d7 !important;
+    background-color: #e3de37 !important;}
+	.new_mn i{position: relative;
+    top: 2px;}
+	.gap10{gap:10px;}
+.tab-content-mn{     
+    border: 1px solid #cbdbdd;
+	border-radius: 3px; }
+.new_text{font-size:12px; cursor: pointer;width: max-content;
+    margin: auto !important;}
+	.hidden_edit{min-width:140px;}
+	.hidden_edit i{visibility:hidden;}
+	.hidden_edit:hover i{visibility:visible;}
+	.icon-delete{cursor:pointer;}
+.d-canvas{    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;}
+#container-1 .nav-tabs{ 
+    justify-content: center;
+	border-bottom : none !important;
+	gap: 5px;
+	}
+	  .more_v{    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+	  margin-left: 5px;}
+	  .dropdown-submenu .dropdown-menu{    left: 157px !important;
+	  top: 0px;}
+	  .dropdown-submenu .dropdown-menu li{ cursor:pointer;}
+	  .dropdown-menu li{border-bottom: 1px solid #ddd;}
+	  .dropdown-menu li:nth-last-child(1){border-bottom: none;}
+	  .dropdown-submenu .dropdown-toggle::after { 
+    float: right;
+    margin-top: 12px;
+}
+ .new_element{
+    border-radius: 2px;
+    border: none;
+}
+.edit_p input{position: relative;
+    left: 13px;
+	text-transform: capitalize;
+	    background: transparent;
+}
+	  .dropdown-menu {padding: 0px !important;}
+.font12{font-size:12px !important;}
+#container-1 .nav-tabs li a{
+    padding: 10px;
+    background: #f3f3f3;
+    color: #000 !important;
+}
+#container-1 .nav-tabs .ui-state-active a{background: #17a2b8; color: #fff !important; }
+#container-1 .nav-tabs li a:hover{text-decoration: none; }
+#min_max label{width140px;}
+.form_class{
+    text-align: center;
+}
+.login_head{
+    text-align: center;
+    margin-top: 3em;
+    font-size: 3em;
+}
+.lab_class{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: -20em;
+}
+.username{
+    background-color: #ebedeb;
+    margin-top: 1.8em;
+    margin-left: -5em;
+    position: absolute;
+    height: 3em;
+    width: 29em;
+}
+.password{
+    background-color: #ebedeb;
+    margin-top: 8em;
+    position: absolute;
+    margin-left: -5em;
+    height: 3em;
+    width: 29em;
+}
+.pass_class{
+    color: black;
+    margin-top: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-left: -4.8em;
+}
+.sub_button{
+    background-color: #ebedeb;
+    position: fixed;
+    margin-top: 13em;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 6em;
+    height: 3em;
+    text-align: center;
+    width: 7em;
+}
+.logout_class img{
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    margin-top: -11.2em;
+    margin-left: 70em;
+}
+.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    margin-top: -30.4em;
+    margin-left: 71em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.logout_class:hover .tooltiptext {
+    visibility: visible;
+}
+    
+.prop_listing{
+    margin-left: 29em;
+    margin-top: 4em;
+}

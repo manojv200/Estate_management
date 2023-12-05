@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  </head>
+  <body>
+   <!-- Button trigger modal -->
+
+
+<div class="prop_listing">
+  <label> Tenant_Name: </label>
+  
+        <input type="text" value="{{tenant.name}}" id="p_name" class="pop_in"  name="p_name"style="margin-left: 4.9em;"readonly><br><br>
+        <input type="text" value="{{tenant.id}}" id="p_id" class="pop_in"  name="p_id"hidden>
+        <label> Contact_number: </label>
+        <input type="text" value="{{tenant.contact_number}}" id="address" class="pop_in"style="margin-left: 3.6em;"  name="address"readonly><br><br>
+        <label> month_rent_date: </label>
+        <input type="text" value="{{tenant.monthly_rent_date}}" id="location" class="pop_in" style="margin-left: 3.4em;" name="location"readonly><br><br>
+        <label> Assigned unit: </label>
+        
+        <input type="text" value="{{unit.unit_name}}" id="features" class="pop_in" style="margin-left: 5em;" name="features"readonly><br>
+        <label> type: </label>
+        <input type="text" value="{{unit.type}}" id="features" class="pop_in" style="margin-left: 9.1em;" name="features"readonly><br>
+        <label> rent_cost: </label>
+        <input type="text" value="{{unit.rent_cost}}" id="features" class="pop_in" style="margin-left: 7.1em;" name="features"readonly><br>
+        <label> assigned_property: </label>
+        <input type="text" value="{{tenant.property}}" id="features" class="pop_in" style="margin-left: 3.1em;" name="features"readonly><br>
+       
+
+</div>
+ 
+  </body>
+</html>
